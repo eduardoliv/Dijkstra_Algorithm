@@ -2,7 +2,7 @@
 Example of a C program that returns the shortest path between two cities.
 
 ## Usage
-* Open Linux terminal, navigate to the application folder and run ./Interrail <file1> <file2>
+* Open Linux terminal, navigate to the application folder and run ./Interrail \<file1\> \<file2\>
     * <file1> Is the first file specified below. (You can use the worldcities.csv file, included here!) 
     * <file2> Is the second file specified below. (You can use the cidadesPT.txt file, included here!)
 * You can create your own paths, for example, with the two files provided, you can edit cidadesPT.txt and create a simple route to test, with a short path.
