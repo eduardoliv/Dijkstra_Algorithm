@@ -10,7 +10,7 @@ Example of a C program that returns the shortest path between two cities.
 ## File format
 * This program requires two files (.txt, .csv, ...)
     * The first file must contain 11 columns, separated by comma (without spaces). Columns are: "city,city_ascii,lat,lng,country,iso2,iso3,admin_name,capital,population,id" and must provide information about the cities. (You can use the worldcities.csv file, included here!)
-    * The second file must provide the connections between cities, each city ID and the distance/cost. Must contain 5 columns, separated by comma (without spaces). "ID,city_origin,ID,city_destination_distance_km". (You can use the cidadesPT.txt file, included here!)
+    * The second file must provide the connections between cities, each city ID and the distance/cost. Must contain 5 columns, separated by comma (without spaces). "ID_origin,city_origin,ID_destination,city_destination,distance_km". (You can use the cidadesPT.txt file, included here!)
 
 ## Compilation
 * Compile via Linux make command
